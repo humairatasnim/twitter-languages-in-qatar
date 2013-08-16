@@ -1,0 +1,80 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+#map-canvas {
+	height: 100%;
+	position: fixed !important;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.info-window {
+	height: 250px;
+}
+
+.overlay {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 100;
+	background: rgba(255,255,255,0.95);
+    border-radius: 4px;
+}
+
+.header {
+	padding: 0px 10px;
+	margin-bottom: 40px;
+}
+	.header a {
+		text-decoration: none;
+	}
+		.header h1 {
+			font-weight: 300;
+			font-size: 1.5em;
+			color: #666666;
+			text-shadow: 0 0 1px rgba(102,102,102,0.2);
+		}
+			.header h1 span {
+				font-size: 0.65em;
+				color: #999999;
+			}
+
+.bargraph {
+	list-style: none;
+	padding: 0px 10px;
+}
+	
+ul.bargraph li {
+	height: 30px;
+	color: #777777;
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0px 50px;
+	margin-bottom: 5px;
+	letter-spacing: 0.1em;
+}
+	
+	ul.bargraph li.english {
+		background: #8CCCC2;
+	}
+
+	ul.bargraph li.arabic {
+		background: #CFEE80;
+	}
+	
+	ul.bargraph li.tagalog {
+		background: #FFE69E;
+	}
+	
+	ul.bargraph li.other {
+		background: #FF9E8F;
+		margin-bottom: 0px;
+	}
