@@ -1,7 +1,7 @@
 Twitter Languages in Qatar v1.0
 ==========================
 
-<h3>Project Overview</h3>
+<h4>Project Overview</h4>
 
 The objective of this project was to create an interactive map that shows the language distribution of geolocated tweets that have been collected around the State of Qatar. The idea was to visualize the data available from Twitter and to bring out interesting trends that exist in the diverse population demographics of Qatar.
 
